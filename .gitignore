@@ -4,6 +4,7 @@
 Session_1/*
 Session_2/*
 Session_3/*
+ICs
 
 !Readme.md
 
@@ -15,5 +16,5 @@ Session_3/*
 
 #for session 2
 !Session_2/simulation/submit.sh
-!Session_2/simulations/parameter_cosmo.yml
+!Session_2/simulation/parameter_cosmo.yml
 !Session_2/Worksheet_2.ipynb
