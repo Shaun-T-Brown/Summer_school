@@ -1,0 +1,11 @@
+*.* #ignore all files
+**/ #ignore all directories
+
+!Readme.md
+
+#for session 1
+!Session_1/submit.sh
+!Session_1/parameter_isolated_host.yml
+!Session_1/Worksheet_1.ipynb
+
+
