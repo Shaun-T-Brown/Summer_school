@@ -1,11 +1,19 @@
 *.* #ignore all files
 **/ #ignore all directories
 
+Session_1/*
+Session_2/*
+Session_3/*
+
 !Readme.md
 
 #for session 1
-!Session_1/submit.sh
-!Session_1/parameter_isolated_host.yml
+!Session_1/ICs
+!Session_1/simulation/submit.sh
+!Session_1/simulation/parameter_isolated_host.yml
 !Session_1/Worksheet_1.ipynb
 
-
+#for session 2
+!Session_2/simulation/submit.sh
+!Session_2/simulations/parameter_cosmo.yml
+!Session_2/Worksheet_2.ipynb
