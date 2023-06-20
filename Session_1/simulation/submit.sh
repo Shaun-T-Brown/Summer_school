@@ -1,4 +1,4 @@
 #!/bin/bash -l
 
-./swiftsim/swift --self-gravity --threads=8 parameter_merger.yml
+./swift --self-gravity --threads=4 parameter_isolated_host.yml
 

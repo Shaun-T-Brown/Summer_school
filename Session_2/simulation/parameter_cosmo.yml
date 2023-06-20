@@ -49,7 +49,7 @@ Scheduler:
   
 # Parameters related to the initial conditions
 InitialConditions:
-  file_name:                   ../../ICs/L025N064_DMONLY/ics_swift.hdf5
+  file_name:                   ../ICs/ics_swift.hdf5
   periodic:                    1
   cleanup_h_factors:           0    
   cleanup_velocity_factors:    0  
