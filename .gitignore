@@ -4,6 +4,7 @@ Session_2/simulation/*
 simulations
 
 #for session 1
+!Session_1/simulation/ICs/
 !Session_1/simulation/submit.sh
 !Session_1/simulation/parameter_isolated_host.yml
 
