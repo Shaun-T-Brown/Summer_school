@@ -1,5 +1,9 @@
+ipython
+jupyterlab
+notebook
 numpy
 matplotlib
-scipy >= 1.6
+scipy 
 h5py
-swiftsimio
+#swiftsimio
+#camb
