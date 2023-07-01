@@ -1,0 +1,1494 @@
+<?xml version="1.0" ?> 
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []> 
+<Xdmf xmlns:xi="http://www.w3.org/2003/XInclude" Version="2.1">
+<Domain>
+<Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0000.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0000.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0000.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0000.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0000.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0000.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0000.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0000.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0000, time=0.000000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0001.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0001.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0001.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0001.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0001.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0001.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0001.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0001.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0001, time=0.001000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0002.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.002000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0002.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0002.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0002.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0002.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0002.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0002.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0002.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0002, time=0.002000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0003.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.003000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0003.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0003.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0003.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0003.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0003.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0003.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0003.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0003, time=0.003000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0004.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.004000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0004.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0004.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0004.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0004.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0004.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0004.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0004.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0004, time=0.004000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0005.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.005000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0005.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0005.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0005.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0005.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0005.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0005.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0005.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0005, time=0.005000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0006.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.006000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0006.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0006.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0006.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0006.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0006.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0006.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0006.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0006, time=0.006000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0007.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.007000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0007.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0007.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0007.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0007.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0007.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0007.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0007.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0007, time=0.007000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0008.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.008000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0008.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0008.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0008.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0008.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0008.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0008.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0008.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0008, time=0.008000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0009.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.009000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0009.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0009.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0009.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0009.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0009.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0009.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0009.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0009, time=0.009000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0010.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.010000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0010.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0010.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0010.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0010.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0010.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0010.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0010.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0010, time=0.010000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0011.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.011000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0011.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0011.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0011.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0011.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0011.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0011.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0011.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0011, time=0.011000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0012.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.012000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0012.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0012.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0012.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0012.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0012.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0012.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0012.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0012, time=0.012000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0013.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.013000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0013.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0013.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0013.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0013.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0013.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0013.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0013.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0013, time=0.013000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0014.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.014000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0014.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0014.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0014.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0014.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0014.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0014.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0014.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0014, time=0.014000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0015.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.015000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0015.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0015.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0015.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0015.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0015.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0015.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0015.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0015, time=0.015000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0016.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.016000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0016.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0016.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0016.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0016.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0016.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0016.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0016.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0016, time=0.016000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0017.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.017000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0017.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0017.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0017.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0017.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0017.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0017.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0017.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0017, time=0.017000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0018.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.018000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0018.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0018.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0018.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0018.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0018.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0018.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0018.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0018, time=0.018000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0019.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.019000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0019.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0019.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0019.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0019.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0019.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0019.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0019.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0019, time=0.019000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0020.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.020000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0020.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0020.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0020.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0020.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0020.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0020.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0020.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0020, time=0.020000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0021.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.021000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0021.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0021.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0021.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0021.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0021.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0021.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0021.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0021, time=0.021000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0022.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.022000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0022.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0022.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0022.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0022.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0022.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0022.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0022.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0022, time=0.022000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0023.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.023000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0023.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0023.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0023.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0023.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0023.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0023.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0023.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0023, time=0.023000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0024.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.024000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0024.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0024.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0024.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0024.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0024.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0024.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0024.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0024, time=0.024000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0025.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.025000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0025.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0025.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0025.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0025.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0025.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0025.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0025.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0025, time=0.025000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0026.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.026000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0026.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0026.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0026.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0026.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0026.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0026.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0026.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0026, time=0.026000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0027.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.027000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0027.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0027.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0027.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0027.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0027.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0027.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0027.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0027, time=0.027000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0028.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.028000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0028.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0028.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0028.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0028.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0028.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0028.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0028.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0028, time=0.028000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0029.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.029000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0029.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0029.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0029.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0029.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0029.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0029.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0029.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0029, time=0.029000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0030.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.030000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0030.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0030.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0030.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0030.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0030.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0030.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0030.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0030, time=0.030000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0031.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.031000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0031.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0031.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0031.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0031.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0031.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0031.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0031.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0031, time=0.031000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0032.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.032000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0032.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0032.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0032.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0032.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0032.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0032.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0032.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0032, time=0.032000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0033.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.033000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0033.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0033.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0033.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0033.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0033.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0033.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0033.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0033, time=0.033000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0034.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.034000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0034.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0034.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0034.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0034.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0034.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0034.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0034.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0034, time=0.034000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0035.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.035000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0035.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0035.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0035.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0035.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0035.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0035.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0035.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0035, time=0.035000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0036.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.036000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0036.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0036.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0036.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0036.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0036.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0036.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0036.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0036, time=0.036000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0037.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.037000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0037.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0037.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0037.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0037.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0037.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0037.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0037.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0037, time=0.037000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0038.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.038000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0038.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0038.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0038.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0038.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0038.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0038.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0038.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0038, time=0.038000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0039.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.039000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0039.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0039.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0039.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0039.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0039.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0039.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0039.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0039, time=0.039000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0040.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.040000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0040.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0040.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0040.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0040.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0040.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0040.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0040.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0040, time=0.040000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0041.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.041000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0041.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0041.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0041.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0041.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0041.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0041.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0041.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0041, time=0.041000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0042.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.042000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0042.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0042.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0042.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0042.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0042.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0042.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0042.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0042, time=0.042000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0043.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.043000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0043.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0043.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0043.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0043.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0043.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0043.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0043.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0043, time=0.043000 -->
+
+
+<!-- XMF description for file: dir_isolated_sat/output_0044.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.044000"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="538"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="538 3" NumberType="Double" Precision="8" Format="HDF">output_0044.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="8" Format="HDF">output_0044.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="538 3" NumberType="Float" Precision="4" Format="HDF">output_0044.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0044.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Int" Precision="8" Format="HDF">output_0044.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0044.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="538" NumberType="Float" Precision="4" Format="HDF">output_0044.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0044, time=0.044000 -->
+
+</Grid> <!-- timeSeries -->
+</Domain>
+</Xdmf>

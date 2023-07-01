@@ -1,0 +1,2088 @@
+<?xml version="1.0" ?> 
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []> 
+<Xdmf xmlns:xi="http://www.w3.org/2003/XInclude" Version="2.1">
+<Domain>
+<Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+
+
+<!-- XMF description for file: output/snap_0000.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000012"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0000.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0000.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0000.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0000.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0000.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0000.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0000.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0000, time=0.000012 -->
+
+
+<!-- XMF description for file: output/snap_0001.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000014"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0001.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0001.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0001.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0001.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0001.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0001.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0001.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0001, time=0.000014 -->
+
+
+<!-- XMF description for file: output/snap_0002.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000015"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0002.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0002.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0002.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0002.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0002.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0002.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0002.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0002, time=0.000015 -->
+
+
+<!-- XMF description for file: output/snap_0003.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000017"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0003.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0003.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0003.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0003.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0003.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0003.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0003.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0003, time=0.000017 -->
+
+
+<!-- XMF description for file: output/snap_0004.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000019"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0004.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0004.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0004.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0004.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0004.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0004.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0004.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0004, time=0.000019 -->
+
+
+<!-- XMF description for file: output/snap_0005.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000022"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0005.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0005.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0005.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0005.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0005.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0005.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0005.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0005, time=0.000022 -->
+
+
+<!-- XMF description for file: output/snap_0006.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000025"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0006.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0006.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0006.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0006.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0006.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0006.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0006.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0006, time=0.000025 -->
+
+
+<!-- XMF description for file: output/snap_0007.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000028"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0007.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0007.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0007.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0007.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0007.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0007.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0007.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0007, time=0.000028 -->
+
+
+<!-- XMF description for file: output/snap_0008.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000031"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0008.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0008.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0008.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0008.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0008.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0008.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0008.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0008, time=0.000031 -->
+
+
+<!-- XMF description for file: output/snap_0009.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000035"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0009.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0009.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0009.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0009.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0009.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0009.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0009.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0009, time=0.000035 -->
+
+
+<!-- XMF description for file: output/snap_0010.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000039"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0010.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0010.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0010.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0010.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0010.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0010.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0010.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0010, time=0.000039 -->
+
+
+<!-- XMF description for file: output/snap_0011.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000044"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0011.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0011.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0011.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0011.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0011.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0011.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0011.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0011, time=0.000044 -->
+
+
+<!-- XMF description for file: output/snap_0012.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000050"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0012.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0012.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0012.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0012.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0012.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0012.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0012.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0012, time=0.000050 -->
+
+
+<!-- XMF description for file: output/snap_0013.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000056"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0013.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0013.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0013.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0013.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0013.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0013.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0013.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0013, time=0.000056 -->
+
+
+<!-- XMF description for file: output/snap_0014.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000063"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0014.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0014.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0014.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0014.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0014.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0014.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0014.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0014, time=0.000063 -->
+
+
+<!-- XMF description for file: output/snap_0015.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000071"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0015.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0015.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0015.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0015.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0015.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0015.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0015.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0015, time=0.000071 -->
+
+
+<!-- XMF description for file: output/snap_0016.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000080"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0016.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0016.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0016.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0016.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0016.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0016.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0016.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0016, time=0.000080 -->
+
+
+<!-- XMF description for file: output/snap_0017.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000090"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0017.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0017.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0017.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0017.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0017.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0017.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0017.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0017, time=0.000090 -->
+
+
+<!-- XMF description for file: output/snap_0018.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000101"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0018.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0018.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0018.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0018.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0018.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0018.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0018.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0018, time=0.000101 -->
+
+
+<!-- XMF description for file: output/snap_0019.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000114"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0019.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0019.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0019.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0019.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0019.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0019.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0019.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0019, time=0.000114 -->
+
+
+<!-- XMF description for file: output/snap_0020.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000128"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0020.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0020.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0020.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0020.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0020.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0020.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0020.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0020, time=0.000128 -->
+
+
+<!-- XMF description for file: output/snap_0021.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000144"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0021.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0021.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0021.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0021.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0021.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0021.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0021.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0021, time=0.000144 -->
+
+
+<!-- XMF description for file: output/snap_0022.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000162"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0022.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0022.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0022.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0022.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0022.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0022.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0022.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0022, time=0.000162 -->
+
+
+<!-- XMF description for file: output/snap_0023.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000182"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0023.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0023.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0023.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0023.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0023.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0023.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0023.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0023, time=0.000182 -->
+
+
+<!-- XMF description for file: output/snap_0024.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000205"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0024.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0024.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0024.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0024.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0024.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0024.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0024.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0024, time=0.000205 -->
+
+
+<!-- XMF description for file: output/snap_0025.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000231"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0025.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0025.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0025.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0025.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0025.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0025.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0025.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0025, time=0.000231 -->
+
+
+<!-- XMF description for file: output/snap_0026.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000259"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0026.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0026.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0026.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0026.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0026.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0026.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0026.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0026, time=0.000259 -->
+
+
+<!-- XMF description for file: output/snap_0027.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000292"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0027.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0027.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0027.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0027.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0027.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0027.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0027.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0027, time=0.000292 -->
+
+
+<!-- XMF description for file: output/snap_0028.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000328"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0028.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0028.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0028.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0028.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0028.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0028.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0028.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0028, time=0.000328 -->
+
+
+<!-- XMF description for file: output/snap_0029.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000369"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0029.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0029.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0029.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0029.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0029.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0029.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0029.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0029, time=0.000369 -->
+
+
+<!-- XMF description for file: output/snap_0030.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000415"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0030.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0030.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0030.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0030.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0030.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0030.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0030.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0030, time=0.000415 -->
+
+
+<!-- XMF description for file: output/snap_0031.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000467"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0031.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0031.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0031.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0031.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0031.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0031.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0031.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0031, time=0.000467 -->
+
+
+<!-- XMF description for file: output/snap_0032.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000525"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0032.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0032.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0032.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0032.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0032.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0032.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0032.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0032, time=0.000525 -->
+
+
+<!-- XMF description for file: output/snap_0033.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000591"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0033.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0033.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0033.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0033.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0033.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0033.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0033.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0033, time=0.000591 -->
+
+
+<!-- XMF description for file: output/snap_0034.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000664"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0034.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0034.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0034.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0034.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0034.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0034.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0034.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0034, time=0.000664 -->
+
+
+<!-- XMF description for file: output/snap_0035.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000747"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0035.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0035.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0035.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0035.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0035.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0035.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0035.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0035, time=0.000747 -->
+
+
+<!-- XMF description for file: output/snap_0036.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000840"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0036.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0036.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0036.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0036.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0036.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0036.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0036.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0036, time=0.000840 -->
+
+
+<!-- XMF description for file: output/snap_0037.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.000945"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0037.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0037.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0037.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0037.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0037.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0037.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0037.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0037, time=0.000945 -->
+
+
+<!-- XMF description for file: output/snap_0038.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001063"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0038.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0038.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0038.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0038.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0038.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0038.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0038.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0038, time=0.001063 -->
+
+
+<!-- XMF description for file: output/snap_0039.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001195"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0039.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0039.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0039.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0039.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0039.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0039.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0039.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0039, time=0.001195 -->
+
+
+<!-- XMF description for file: output/snap_0040.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001344"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0040.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0040.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0040.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0040.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0040.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0040.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0040.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0040, time=0.001344 -->
+
+
+<!-- XMF description for file: output/snap_0041.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001511"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0041.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0041.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0041.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0041.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0041.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0041.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0041.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0041, time=0.001511 -->
+
+
+<!-- XMF description for file: output/snap_0042.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001698"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0042.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0042.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0042.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0042.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0042.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0042.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0042.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0042, time=0.001698 -->
+
+
+<!-- XMF description for file: output/snap_0043.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.001909"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0043.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0043.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0043.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0043.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0043.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0043.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0043.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0043, time=0.001909 -->
+
+
+<!-- XMF description for file: output/snap_0044.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.002144"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0044.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0044.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0044.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0044.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0044.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0044.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0044.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0044, time=0.002144 -->
+
+
+<!-- XMF description for file: output/snap_0045.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.002409"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0045.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0045.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0045.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0045.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0045.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0045.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0045.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0045, time=0.002409 -->
+
+
+<!-- XMF description for file: output/snap_0046.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.002705"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0046.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0046.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0046.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0046.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0046.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0046.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0046.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0046, time=0.002705 -->
+
+
+<!-- XMF description for file: output/snap_0047.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.003036"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0047.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0047.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0047.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0047.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0047.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0047.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0047.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0047, time=0.003036 -->
+
+
+<!-- XMF description for file: output/snap_0048.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.003406"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0048.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0048.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0048.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0048.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0048.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0048.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0048.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0048, time=0.003406 -->
+
+
+<!-- XMF description for file: output/snap_0049.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.003818"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0049.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0049.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0049.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0049.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0049.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0049.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0049.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0049, time=0.003818 -->
+
+
+<!-- XMF description for file: output/snap_0050.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.004276"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0050.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0050.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0050.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0050.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0050.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0050.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0050.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0050, time=0.004276 -->
+
+
+<!-- XMF description for file: output/snap_0051.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.004785"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0051.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0051.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0051.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0051.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0051.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0051.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0051.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0051, time=0.004785 -->
+
+
+<!-- XMF description for file: output/snap_0052.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.005347"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0052.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0052.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0052.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0052.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0052.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0052.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0052.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0052, time=0.005347 -->
+
+
+<!-- XMF description for file: output/snap_0053.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.005966"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0053.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0053.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0053.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0053.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0053.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0053.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0053.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0053, time=0.005966 -->
+
+
+<!-- XMF description for file: output/snap_0054.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.006646"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0054.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0054.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0054.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0054.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0054.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0054.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0054.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0054, time=0.006646 -->
+
+
+<!-- XMF description for file: output/snap_0055.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.007388"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0055.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0055.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0055.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0055.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0055.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0055.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0055.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0055, time=0.007388 -->
+
+
+<!-- XMF description for file: output/snap_0056.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.008193"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0056.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0056.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0056.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0056.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0056.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0056.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0056.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0056, time=0.008193 -->
+
+
+<!-- XMF description for file: output/snap_0057.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.009062"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0057.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0057.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0057.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0057.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0057.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0057.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0057.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0057, time=0.009062 -->
+
+
+<!-- XMF description for file: output/snap_0058.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.009994"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0058.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0058.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0058.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0058.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0058.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0058.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0058.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0058, time=0.009994 -->
+
+
+<!-- XMF description for file: output/snap_0059.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.010985"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0059.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0059.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0059.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0059.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0059.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0059.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0059.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0059, time=0.010985 -->
+
+
+<!-- XMF description for file: output/snap_0060.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.012034"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0060.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0060.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0060.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0060.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0060.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0060.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0060.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0060, time=0.012034 -->
+
+
+<!-- XMF description for file: output/snap_0061.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.013136"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0061.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0061.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0061.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0061.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0061.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0061.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0061.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0061, time=0.013136 -->
+
+
+<!-- XMF description for file: output/snap_0062.hdf5 -->
+<Grid GridType="Collection" CollectionType="Spatial">
+<Time Type="Single" Value="0.014116"/>
+
+<Grid Name="DM" GridType="Uniform">
+<Topology TopologyType="Polyvertex" Dimensions="262144"/>
+<Geometry GeometryType="XYZ">
+<DataItem Dimensions="262144 3" NumberType="Double" Precision="8" Format="HDF">snap_0062.hdf5:/PartType1/Coordinates</DataItem>
+</Geometry>
+ <!-- Done geometry for DM, start of particle fields list -->
+<Attribute Name="Coordinates" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="8" Format="HDF">snap_0062.hdf5:/PartType1/Coordinates</DataItem>
+</Attribute>
+<Attribute Name="Velocities" AttributeType="Vector" Center="Node">
+<DataItem Dimensions="262144 3" NumberType="Float" Precision="4" Format="HDF">snap_0062.hdf5:/PartType1/Velocities</DataItem>
+</Attribute>
+<Attribute Name="Masses" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0062.hdf5:/PartType1/Masses</DataItem>
+</Attribute>
+<Attribute Name="ParticleIDs" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Int" Precision="8" Format="HDF">snap_0062.hdf5:/PartType1/ParticleIDs</DataItem>
+</Attribute>
+<Attribute Name="Softenings" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0062.hdf5:/PartType1/Softenings</DataItem>
+</Attribute>
+<Attribute Name="Potentials" AttributeType="Scalar" Center="Node">
+<DataItem Dimensions="262144" NumberType="Float" Precision="4" Format="HDF">snap_0062.hdf5:/PartType1/Potentials</DataItem>
+</Attribute>
+</Grid> <!-- End of meta-data for parttype=DM -->
+
+</Grid> <!-- End of meta-data for output=0062, time=0.014116 -->
+
+</Grid> <!-- timeSeries -->
+</Domain>
+</Xdmf>
