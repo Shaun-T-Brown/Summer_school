@@ -31,9 +31,9 @@ SWIFT is written C99 and requires the following C packages that will need to be 
 - HDF5
 
 It is likely that a number of these will already be installed. HDF5 and FFTW are the most likely you will need to install by hand. On an ubuntu style system (using debian) these can be installed with the commands:
-
-`[sudo] apt-get install fftw3-dev
-[sudo] apt-get install libhdf5-dev`
-
+```
+[sudo] apt-get install fftw3-dev
+[sudo] apt-get install libhdf5-dev
+```
 Or alternatively these can be compiled yourself. See [HDF5](https://www.hdfgroup.org/downloads/hdf5/) and [FFTW](https://www.fftw.org/download.html).
 
