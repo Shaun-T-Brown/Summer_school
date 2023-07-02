@@ -4,7 +4,7 @@ jupyterlab
 notebook
 numpy
 matplotlib
-scipy 
+scipy>=1.6 
 h5py
-#swiftsimio
-#camb
+swiftsimio
+camb
