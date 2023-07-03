@@ -30,10 +30,30 @@ SWIFT is written C99 and requires the following C packages that will need to be 
 - FFTW (3.3.x or higher)
 - HDF5
 
-It is likely that a number of these will already be installed. HDF5 and FFTW are the most likely you will need to install by hand. On an ubuntu style system (using debian) these can be installed with the commands:
+It is likely that a number of these will already be installed. HDF5, FFTW and Libtool are the most likely you will need to install by hand. 
+
+#### Linux:
+
+On an ubuntu style system (using debian) these can be installed with the commands:
 ```
 [sudo] apt-get install fftw3-dev
 [sudo] apt-get install libhdf5-dev
 ```
 Or alternatively these can be compiled yourself. See [HDF5](https://www.hdfgroup.org/downloads/hdf5/) and [FFTW](https://www.fftw.org/download.html).
 
+#### OS X
+
+We recommend using the [Homebrew](https://brew.sh/) package manager if you don't already have it.
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+You can then install the packages using the following command
+
+```
+brew install [pacakge name]
+```
+e.g.
+```
+brew install gsl
+```
