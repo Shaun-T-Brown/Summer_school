@@ -39,9 +39,11 @@ On an ubuntu style system (using debian) these can be installed with the command
 [sudo] apt-get install fftw3-dev
 [sudo] apt-get install libhdf5-dev
 ```
+etc.
+
 Or alternatively these can be compiled yourself. See [HDF5](https://www.hdfgroup.org/downloads/hdf5/) and [FFTW](https://www.fftw.org/download.html).
 
-#### OS X
+#### OS X:
 
 We recommend using the [Homebrew](https://brew.sh/) package manager if you don't already have it.
 ```
@@ -56,4 +58,6 @@ brew install [pacakge name]
 e.g.
 ```
 brew install gsl
+brew install fftw
 ```
+etc
