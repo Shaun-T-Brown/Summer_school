@@ -53,7 +53,7 @@ We recommend using the [Homebrew](https://brew.sh/) package manager if you don't
 You can then install the packages using the following command
 
 ```
-brew install [pacakge name]
+brew install [package name]
 ```
 e.g.
 ```
@@ -61,3 +61,20 @@ brew install gsl
 brew install fftw
 ```
 etc
+
+
+## Downloading simulations
+
+There are a number of large of larger simulations that are used in Session 3. You can either download all of the simulations, or only the Dark matter only ones. 
+
+For all simulations (~ 15Gb) you can download them with the following commands
+```
+wget -c https://virgodb.cosma.dur.ac.uk/public/dc-brow5/Summer_school/simulations/All_simulations.tar.gz
+tar -xzvf All_simulations.tar.gz
+```
+
+Alternatively, if you only want to download the DM only simulations (~ 4.4 Gb) then do the following
+```
+wget -c https://virgodb.cosma.dur.ac.uk/public/dc-brow5/Summer_school/simulations/DMONLY_simulations.tar.gz
+tar -xzvf DMONLY_simulations.tar.gz
+```
