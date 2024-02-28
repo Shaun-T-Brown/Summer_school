@@ -30,7 +30,14 @@ SWIFT is written C99 and requires the following C packages that will need to be 
 - FFTW (3.3.x or higher)
 - HDF5
 
-It is likely that a number of these will already be installed. HDF5, FFTW and Libtool are the most likely you will need to install by hand. 
+It is likely that a number of these will already be installed. HDF5, FFTW and Libtool are the most likely you will need to install by hand.
+
+#### COSMA:
+
+If you have access, we would strongly recommend using cosma to run these simulations. All of the necessary modules and packages are already installed and available. Here's a combination of modules that are known the work, simply copy the following command (you may need to unload some module first)
+```
+module load intel_comp/2018 intel_mpi/2018 fftw/3.3.9 gsl/2.4 hdf5/1.10.2 metis/5.1.0
+```
 
 #### Linux:
 
@@ -79,3 +86,14 @@ tar -xzvf DMONLY_simulations.tar.gz
 ```
 
 
+### On COSMA
+
+For those that already have a cosma account you can simply copy the simulations to your own working directory. This will be much quicker than downloading the simulations. The simulations can be found at
+```
+/cosma7/data/dp004/dc-brow5/simulations/Summer_school/simulations
+```
+
+And to copy only the uncompressed simulations you can use something like
+```
+rsync -auvP /cosma7/data/dp004/dc-brow5/simulations/Summer_school/simulations/L* /path/to/working/directory
+```
