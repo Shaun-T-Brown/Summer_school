@@ -36,7 +36,10 @@ It is likely that a number of these will already be installed. HDF5, FFTW and Li
 
 If you have access, we would strongly recommend using cosma to run these simulations. All of the necessary modules and packages are already installed and available. Here's a combination of modules that are known the work, simply copy the following command (you may need to unload some module first)
 ```
-module load intel_comp/2018 intel_mpi/2018 fftw/3.3.9 gsl/2.4 hdf5/1.10.2 metis/5.1.0
+module purge
+module load gnu_comp/10.2.0
+module load intel_mpi/2018 hdf5/1.10.6 fftw/3.3.9cosma8 gsl/2.4 metis/5.1.0 cosma
+
 ```
 
 #### Linux:
